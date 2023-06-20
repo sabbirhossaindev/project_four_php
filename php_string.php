@@ -7,4 +7,5 @@ $string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 // echo $string[13];
 echo $string[-5];
 echo "\n";
-echo strlen($string);
+$length = strlen($string);
+echo substr($string, $length - 3);
